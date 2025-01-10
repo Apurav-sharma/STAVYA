@@ -3,6 +3,8 @@ import MenuIcon from '@mui/icons-material/Menu';
 import ganpati from '../images/cultxlogo.png';
 import '../components_css/Navbar.css';
 import '../components_res/Navbar.css';
+import {Link} from "react-scroll";
+// import { Component } from 'react';
 
 export default function Navbar() {
     const [menuOpen, setMenuOpen] = useState(false);
@@ -19,12 +21,12 @@ export default function Navbar() {
             </div>
 
             <div className="nav-links">
-                <a href="#">Home</a>
-                <a href="#">About</a>
-                <a href="#">Glimpse</a>
-                <a href="#">Members</a>
-                <a href="#">Clubs</a>
-                <a href="#">Contacts</a>
+                <Link to='#'>Home</Link>
+                <Link to="about-main-div"  smooth={true} duration={500}>About</Link>
+                <Link to="glimpse-main" smooth={true} duration={500}>Glimpse</Link>
+                <Link to="glimpse-main" smooth={true} duration={500}>Members</Link>
+                <Link to="glimpse-main" smooth={true} duration={500}>Clubs</Link>
+                <Link to="contact-main" smooth={true} duration={500}>Contacts</Link>
             </div>
 
             <div className="ham-div">
@@ -47,12 +49,12 @@ export default function Navbar() {
                 </a>
                 {menuOpen && (
                     <div className="mobile-menu">
-                        <a href="#">Home</a>
-                        <a href="#">About</a>
-                        <a href="#">Glimpse</a>
-                        <a href="#">Members</a>
-                        <a href="#">Clubs</a>
-                        <a href="#">Contacts</a>
+                        <Link to='#'>Home</Link>
+                    <Link to="about-main-div"  smooth={true} duration={500}>About</Link>
+                    <Link to="glimpse-main" smooth={true} duration={500}>Glimpse</Link>
+                    <Link to="glimpse-main" smooth={true} duration={500}>Members</Link>
+                    <Link to="glimpse-main" smooth={true} duration={500}>Clubs</Link>
+                    <Link to="contact-main" smooth={true} duration={500}>Contacts</Link>
                     </div>
                 )}
             </div>

@@ -1,83 +1,140 @@
 .about-main-div {
+    position: relative;
     display: flex;
     justify-content: center;
+}
 
-    .about {
-        font-size: 1.5rem;
-        letter-spacing: 5px;
-        color: white;
-        margin: 0 0 0 12%;
-    }
+.about {
+    font-size: 1.5rem;
+    letter-spacing: 5px;
+    color: white;
+    margin: 0 0 0 12%;
+}
 
-    .about-line {
-        width: 25%;
-        height: 2px;
-        opacity: 0.4;
-        background-color: #ffffff;
-        border: none;
-        margin: 2.5px 0 0 3%;
-        filter: invert(51%) sepia(100%) saturate(1000%) hue-rotate(-15deg) brightness(100%) contrast(95%);
-    }
-
-    .about-img-div {
-        position: relative;
-
-    }
-
+.about-line {
+    width: 25%;
+    height: 2px;
+    opacity: 0.4;
+    background-color: #ffffff;
+    border: none;
+    margin: 2.5px 0 0 3%;
+    filter: invert(51%) sepia(100%) saturate(1000%) hue-rotate(-15deg) brightness(100%) contrast(95%);
 }
 
 .about-para {
     color: #ffff;
-    /* background-color: red; */
     width: 50%;
+}
+
+.dp-01 {
+    position: absolute;
+    opacity: 0.2;
+    width: 15vw;
+    filter: invert(51%) sepia(100%) saturate(1000%) hue-rotate(-15deg) brightness(100%) contrast(95%);
+}
+
+.img-eyes {
+    position: absolute;
+    width: 6%;          /* Adjust size as needed */
+    left: 15%;          /* Position it slightly to the right of the ABOUT section */
+    top: 2%;          /* Adjust vertical alignment */
+    transform: translateY(-50%); /* Center vertically relative to its container */
+    margin-left: 10px;  /* Add extra spacing from ABOUT if necessary */
+    z-index: 2;         /* Ensure it appears above other content */
+}
+
+.para-01,
+.para-02,
+.para-03 {
+    margin: 15px 0 30px 25px;
+    letter-spacing: 1px;
+    font-size: 1rem;
+    text-align: start;
+    line-height: 25px;
+    font-family: 'Roundelay-Thin';
+}
+
+/* Tablet View */
+@media (max-width: 768px) {
+    .about-main-div {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .about {
+        font-size: 1.5rem;
+        margin: 0;
+    }
+
+    .about-line {
+        width: 30%;
+        margin: 0 0 0 4px;
+    }
+
+    .about-para {
+        width: 90%;
+    }
 
     .dp-01 {
-        position: absolute;
-        opacity: 0.2;
-        width: 15vw;
-        filter: invert(51%) sepia(100%) saturate(1000%) hue-rotate(-15deg) brightness(100%) contrast(95%);
+        width: 30vw;
+        max-width: 120px;
+        height: 500px;
     }
 
     .img-eyes {
-        position: absolute;
-        width: 6%;
-        margin: -3.5% 0 0 14%;
+        width: 10%;
+        left: 20%;
+        top: 1%;
     }
 
-
-    .para-01 {
-        /* background-color: red; */
-        margin: 15px 0 30px 25px;
-        letter-spacing: 1px;
-        font-size: 1rem;
-        text-align: start;
-        line-height: 25px;
-        font-family: 'Roundelay-Thin';
-        /* width: 50%; */
-    }
-
-    .para-02 {
-        /* background-color: yellow; */
-        margin: 0 0 30px 25px;
-        letter-spacing: 1px;
-        font-size: 1rem;
-        text-align: start;
-        line-height: 25px;
-        font-family: 'Roundelay-Thin';
-        /* width: 50%; */
-    }
-
+    .para-01,
+    .para-02,
     .para-03 {
-        /* background-color: green; */
-        margin: 20px 0 30px 25px;
-        letter-spacing: 1px;
-        font-size: 1rem;
-        text-align: start;
-        font-family: 'Roundelay-Thin';
-        /* width: 50%; */
+        font-size: 0.9rem;
+        margin: 10px 0;
     }
 }
 
+/* Mobile View */
+@media (max-width: 480px) {
+    .about-main-div {
+        justify-content: center;
+        align-items: center;
+        margin: 20px auto;
+    }
+
+    .about {
+        font-size: 1.2rem;
+        margin: 0;
+    }
+
+    .about-line {
+        width: 70%;
+    }
+
+    .about-para {
+        width: 95%;
+    }
+
+    .dp-01 {
+        width: 25vw;
+        max-width: 100px;
+    }
+
+    .img-eyes {
+        width: 20%;
+        left: 25%;
+        top: 140%;
+    }
+
+    .para-01,
+    .para-02,
+    .para-03 {
+        font-size: 0.8rem;
+        line-height: 1.5;
+    }
+}
 
 .chakra-div {
     position: relative;
@@ -200,4 +257,8 @@
         filter: invert(100%) brightness(10000%);
     }
 
-} 
+}
+
+@media (max-height: 768px) {
+    
+}
