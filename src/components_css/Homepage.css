@@ -1,0 +1,191 @@
+.homepage-main {
+    top: 0;
+    width: 100vw;
+    height: 100vh;
+}
+
+.img-div {
+    position: relative;
+
+    .ch-img-02 {
+        position: absolute;
+        filter: invert(100%) brightness(100%);
+        width: 38%;
+        opacity: 0.1;
+        margin-left: 63%;
+        margin-top: -19%;
+        animation: rotateImage 20s linear infinite;
+    }
+
+    .ch-img-05 {
+
+        position: absolute;
+        width: 35%;
+        opacity: 0.2;
+        margin-left: 55%;
+        margin-top: 20%;
+        /* animation: rotateImage 15s linear infinite; */
+    }
+
+    .ch-img-08 {
+        filter: invert(51%) sepia(100%) saturate(1000%) hue-rotate(-15deg) brightness(100%) contrast(95%);
+
+        position: absolute;
+        width: 55%;
+        opacity: 0.1;
+        margin-top: -15%;
+        animation: rotateImage 15s linear infinite;
+        background-repeat: no-repeat;
+    }
+
+    .stvya-logo {
+        position: absolute;
+        /* filter: invert(100%) brightness(10000%); */
+        width: 17%;
+        margin-top: -4.4%;
+        margin-left: 31.2%;
+    }
+
+}
+
+a:hover {
+    color: #bd8a54;
+}
+
+.home-text {
+    width: 50%;
+    margin-left: 5%;
+
+
+    .home-stvya {
+        width: fit-content;
+        filter: invert(100%) brightness(1000%);
+        font-size: 10rem;
+        margin-left: 10%;
+        margin-top: 20%;
+        font-weight: 100;
+        font-family: 'Crosshatcher-vPOO';
+    }
+
+    .home-culxlit {
+        width: fit-content;
+        color: #bd8a54;
+        letter-spacing: 3px;
+        font-size: 2rem;
+        font-weight: bold;
+        margin-left: 100%;
+        margin-top: -10.5%;
+    }
+
+    .home-shlok {
+        color: #ffff;
+        font-size: 1.6rem;
+        font-weight: 100;
+        margin: 2px 0 0 14%;
+        letter-spacing: 1px;
+        font-family: 'PankajThin-BgRV';
+    }
+
+    .home-para {
+        color: #ffff;
+        width: 100%;
+        letter-spacing: 1px;
+        margin: 3% 0 0 10%;
+    }
+
+
+    .home-button-div {
+        display: flex;
+        /* background-color: yellow; */
+        justify-content: space-evenly;
+        margin: 10px 0 0 100%;
+        padding: 10px 0 10px 0;
+
+    }
+
+    /* .M-button {
+        position: relative;
+        display: inline-block;
+        cursor: pointer;
+        outline: none;
+        border: 0;
+        background: transparent;
+        padding: 0;
+        font-size: inherit;
+        font-family: inherit;
+        width: 12rem;
+        height: auto;
+    }
+
+    .M-button .circle {
+        transition: all 0.45s cubic-bezier(0.65, 0, .076, 1);
+        position: relative;
+        display: block;
+        margin: 2px 0 0 0;
+        width: 3rem;
+        height: 3rem;
+        background: #f0b27a;
+        z-index: -1;
+        border-radius: 1.625rem;
+    }
+
+    .M-button .circle .icon {
+        transition: all 0.45s cubic-bezier(0.65, 0, .076, 1);
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        margin: auto;
+        background: #fff;
+    }
+
+    .M-button .circle .icon.arrow {
+        transition: all 0.45s cubic-bezier(0.65, 0, .076, 1);
+        left: 0.625rem;
+        width: 1.125rem;
+        height: 0.125rem;
+        background: none;
+    }
+
+    .M-button .circle .icon.arrow::before {
+        position: absolute;
+        content: '';
+        top: -0.25rem;
+        right: 0.0625rem;
+        width: 0.625rem;
+        height: 0.625rem;
+        border-top: 0.125rem solid #fff;
+        border-right: 0.125rem solid #fff;
+        transform: rotate(45deg);
+    }
+
+    .M-button .button-text {
+        transition: all 0.45s cubic-bezier(0.65, 0, .076, 1);
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        padding: 0.75rem 0;
+        margin: 0 0 0 1.85rem;
+        color: white;
+        font-weight: 800;
+        font-size: 1.2rem;
+        line-height: 1.6;
+        text-align: center;
+        letter-spacing: 3px;
+    }
+
+    .M-button:hover .circle {
+        width: 100%;
+    }
+
+    .M-button:hover .circle .icon.arrow {
+        background: #fff;
+        transform: translate(1rem, 0);
+    }
+
+    .M-button:hover .button-text {
+        color: #fff;
+    } */
+
+}

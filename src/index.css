@@ -1,0 +1,49 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  user-select: none;
+}
+
+body {
+  width: 100vw;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  background: linear-gradient(90deg, #000000, #737373);
+  font-family: 'Standerd-Regular';
+}
+
+@font-face {
+  font-family: 'Standerd-Regular';
+  src: url(Fonts/Standerd-Regular.otf);
+}
+
+@font-face {
+  font-family: 'Roundelay-Thin';
+  src: url(Fonts/Roundelay-Thin.ttf);
+}
+
+@font-face {
+  font-family: 'ArgentumSans-Black';
+  src: url(Fonts/ArgentumSans-Black.otf);
+}
+
+@font-face {
+  font-family: 'Crosshatcher-vPOO';
+  src: url(Fonts/Crosshatcher-vPOO.ttf)
+}
+
+@font-face {
+  font-family: ' Wasted-Vindey.ttf';
+  src: url(Fonts/Wasted-Vindey.ttf);
+}
+
+@font-face {
+  font-family: 'Kugile_Demo';
+  src: url(Fonts/Kugile_Demo.ttf);
+}
+
+@font-face {
+  font-family: 'PankajThin-BgRV';
+  src: url(Fonts/PankajThin-BgRV.ttf);
+}

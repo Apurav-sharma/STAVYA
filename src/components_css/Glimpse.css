@@ -1,0 +1,185 @@
+.glimpse-main {
+    width: 100%;
+    margin-top: 5%;
+    margin-bottom: 150px;
+}
+
+.glimpse-div {
+    position: relative;
+    width: 100%;
+
+    .stvya-glimp {
+        font-size: 1.5rem;
+        font-weight: 600;
+        color: #ffff;
+        padding: 0 0 0 15px;
+        letter-spacing: 3px;
+        margin: 10px 0 0 45px;
+    }
+
+    .glipm-line {
+        filter: invert(100%) brightness(10000%);
+        position: absolute;
+        width: 6.5%;
+        top: 3px;
+        left: 55px;
+        opacity: 0.5;
+
+    }
+
+    .glipm-line-01 {
+        position: absolute;
+        width: 18%;
+        top: 30px;
+        left: 25px;
+        height: 2px;
+    }
+
+    .glimp-stvya {
+        opacity: 0.5;
+        filter: invert(100%) brightness(10000%);
+        position: absolute;
+        width: 7%;
+        top: -45px;
+        left: 53px;
+    }
+
+    .glimp-dp-02 {
+        opacity: 0.5;
+        z-index: 30;
+        top: 5px;
+        width: 15%;
+        left: 0px;
+        position: absolute;
+    }
+}
+
+/*===============Main Buttons=================*/
+.button-div {
+    display: flex;
+    /* background-color: red; */
+    justify-content: space-evenly;
+    margin: 80px 0 0 0;
+    padding: 10px 0 10px 0;
+
+    .M-button {
+        position: relative;
+        display: inline-block;
+        cursor: pointer;
+        outline: none;
+        border: 0;
+        background: transparent;
+        padding: 0;
+        font-size: inherit;
+        font-family: inherit;
+        width: 12rem;
+        height: auto;
+    }
+
+    .M-button .circle {
+        transition: all 0.45s cubic-bezier(0.65, 0, .076, 1);
+        position: relative;
+        display: block;
+        margin: 2px 0 0 0;
+        width: 3rem;
+        height: 3rem;
+        background: #C70039;
+        z-index: -1;
+        border-radius: 1.625rem;
+    }
+
+    .M-button .circle .icon {
+        transition: all 0.45s cubic-bezier(0.65, 0, .076, 1);
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        margin: auto;
+        background: #fff;
+        /* White color */
+    }
+
+    .M-button .circle .icon.arrow {
+        transition: all 0.45s cubic-bezier(0.65, 0, .076, 1);
+        left: 0.625rem;
+        width: 1.125rem;
+        height: 0.125rem;
+        background: none;
+    }
+
+    .M-button .circle .icon.arrow::before {
+        position: absolute;
+        content: '';
+        top: -0.25rem;
+        right: 0.0625rem;
+        width: 0.625rem;
+        height: 0.625rem;
+        border-top: 0.125rem solid #fff;
+        border-right: 0.125rem solid #fff;
+        transform: rotate(45deg);
+    }
+
+    .M-button .button-text {
+        transition: all 0.45s cubic-bezier(0.65, 0, .076, 1);
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        padding: 0.75rem 0;
+        margin: 0 0 0 1.85rem;
+        color: white;
+        font-weight: 800;
+        font-size: 1.2rem;
+        line-height: 1.6;
+        text-align: center;
+        letter-spacing: 3px;
+        text-transform: uppercase;
+    }
+
+    .M-button:hover .circle {
+        width: 100%;
+    }
+
+    .M-button:hover .circle .icon.arrow {
+        background: #fff;
+        transform: translate(1rem, 0);
+    }
+
+    .M-button:hover .button-text {
+        color: #fff;
+    }
+}
+
+
+/*-------------carousel----------------*/
+.carousel-container {
+    width: 78%;
+    display: flex;
+    justify-content: center;
+    margin: 5% 0 0 12%;
+}
+
+.carousel-container {
+
+    padding-left: 40px;
+}
+
+.carousel-item img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.custom-arrow {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    border: none;
+    padding: 10px;
+    border-radius: 50%;
+    cursor: pointer;
+    z-index: 1;
+}
+
+/*-------------carousel----------------*/
