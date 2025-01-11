@@ -1,4 +1,5 @@
 import React from 'react';
+import "../components_res/events.css";
 
 export default function Eventscard({ eventname, eventdescription, backgroundImage }) {
     return (
@@ -12,7 +13,7 @@ export default function Eventscard({ eventname, eventdescription, backgroundImag
                     opacity: 0.8,
                 }}
             >
-                <span>{eventname}</span>
+                <span className='event_name'>{eventname}</span>
                 <hr />
             </div>
             <div className="back">

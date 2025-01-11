@@ -1,1 +1,138 @@
 /*============About responsive==========*/
+@media (max-width: 500px) {
+
+    .about-main-div .about {
+        font-size: 0.85rem;
+        letter-spacing: 1px;  
+    }
+
+    .about-main-div .about-line{
+        width: 40%;
+    }
+
+    .about-para .img-eyes{
+        position: absolute;
+        width: 15%;
+        margin: -9.5% 0 0 20%;
+    }
+
+    .about-para {
+        width: 50%;
+    
+        .dp-01 {
+            position: absolute;
+            opacity: 0.4;
+            width: 15vw;
+            filter: invert(51%) sepia(100%) saturate(1000%) hue-rotate(-15deg) brightness(100%) contrast(95%);
+        }
+    
+        .para-01 {
+            margin: 6% 0 10% 1%;
+            letter-spacing: 0.2px;
+            font-size: 0.4rem;
+            line-height: 10px;
+        }
+    
+        .para-02 {
+            margin: 6% 0 10% 1%;
+            letter-spacing: 0.2px;
+            font-size: 0.4rem;
+            line-height: 10px;
+        }
+    
+        .para-03 {
+            margin: 6% 0 10% 1%;
+            letter-spacing: 0.2px;
+            font-size: 0.4rem;
+            line-height: 10px;
+        }
+    }
+
+
+    .chakra-div {
+
+        margin-top: 15%;
+        
+        .span-01 {
+            font-size: 0.8rem;
+            font-weight: 600;
+            color: rgb(202, 142, 31);
+        }
+    
+        .span-02 {
+            color: rgb(204, 147, 10);
+            font-size: 0.8rem;
+            font-weight: 600;
+        }
+    
+        .span-03 {
+            font-size: 0.8rem;
+            color: rgb(204, 147, 10);
+            font-weight: 600;
+        }
+    
+        .ch-h4-01 {
+            font-size: 0.2rem;
+            font-weight: 100;
+            letter-spacing: 1px;
+            margin: 13% 0 0 25%;
+        }
+    
+        .ch-h4-02 {
+            font-size: 0.2rem;
+            font-weight: 100;
+            letter-spacing: 1px;
+            margin: 37% 0 0 50.2%;
+        }
+    
+        .ch-h4-03 {
+            font-size: 0.2rem;
+            font-weight: 100;
+            letter-spacing: 1px;
+            margin: 52% 0 0 6.6%;
+        }
+    
+        .ch-04-01 {
+            margin: 35% 0 0 -5%;
+            width: 50%;
+            animation: rotateImage 15s linear infinite;
+        }
+    
+        .ch-04-02 {
+            margin: 25% 0 0 41%;
+            width: 42%;
+            animation: rotateImage 15s linear infinite;
+        }
+    
+        .ch-04-03 {
+            margin: 3% 0 0 18%;
+            width: 35%;
+            animation: rotateImage 15s linear infinite;
+        }
+    
+        .dp-02 {
+            position: absolute;
+            /* background-color: red;   */
+            margin: 5% 0 0 50%;
+            width: 20vw;
+            opacity: 0.2;
+        }
+    
+        .dp-line {
+            width: 23%;
+            height: 1px;
+            opacity: 0.2;
+            margin: 9% 0 0 57%;
+        }
+    
+        .stv-logo {
+            width: 25%;
+            height: fit-content;
+            margin: -2.8% 0 0 56.5%;
+            opacity: 0.3;
+            position: absolute;
+            filter: invert(100%) brightness(10000%);
+        }
+    
+    } 
+}

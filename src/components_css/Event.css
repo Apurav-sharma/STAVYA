@@ -128,6 +128,8 @@
     align-items: center;
     position: relative;
     text-align: center;
+    /* width: 100%;
+    justify-content: center; */
 }
 
 .E-main-text {

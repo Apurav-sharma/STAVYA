@@ -1,0 +1,40 @@
+@media (max-width: 600px) {
+
+    .card {
+        width: 100%;
+
+        .event_name {
+            font-size: 1.5rem;
+        }
+    }
+
+    .E-member-page {
+        .E-sub-text {
+            text-align: center;
+        }
+    }
+
+    .E-deep {
+        /* height: 7rem; */
+        visibility: hidden;
+        top: 3rem;
+    }
+
+    .E-stavya {
+        height: 2.5rem;
+        top: 2rem;
+        visibility: hidden;
+    }
+
+    .E-line {
+        top: 3.2rem;
+        visibility: hidden;
+    }
+
+    .E-sub-text {
+        transform: scaleX();
+        transform: scaleY();
+        width: 100vw;
+        letter-spacing: 0.3rem;
+    }
+}

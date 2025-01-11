@@ -1,0 +1,69 @@
+@media (max-width: 768px) {
+
+    .membercard-container {
+
+        width: 93%;
+        /* .membercard-image {
+            width: 10%;
+            height: 100%;
+        } */
+
+        .membercard-details {
+            height: 100%;
+            width: 70%;
+            /* font-size: 0.5rem; */
+            /* overflow: hidden; */
+        }
+
+        .membercard-position {
+            font-size: 0.8rem;
+        }
+
+        .membercard-name {
+            font-size: 0.6rem;
+        }
+
+        .membercard-batch {
+            font-size: 0.6rem;
+        }
+
+        .membercard-description {
+            font-size: 0.6rem;
+        }
+
+        .membercard-contact {
+            font-size: 0.6rem;
+        }
+
+        .membercard-social a {
+            size: 0.2rem
+        }
+    }
+
+    .M-deep {
+        top: 1rem;
+        height: 7rem;
+    }
+
+    .M-stavya {
+        top: 1rem;
+        height: 2.3rem;
+    }
+
+    .M-main-text {
+        transform: scaleX(0.6);
+    }
+
+    .M-line {
+        top: 2rem;
+    }
+
+    .M-sub-text {
+        font-size: 0.1rem;
+        /* transform: scaleY(1); */
+        transform: scaleY(3);
+        left: 0px;
+        font-weight: bolder;
+        letter-spacing: 0.4rem;
+    }
+}

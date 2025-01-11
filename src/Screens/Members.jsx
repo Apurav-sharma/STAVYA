@@ -12,6 +12,7 @@ import profile from '../images/profile.jpg'
 import Membercard from '../components_jsx/Membercard'
 import '../components_css/Member.css'
 import { style } from 'framer-motion/client';
+import "../components_res/Member.css";
 
 export default function Members() {
   return (

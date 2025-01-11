@@ -1,5 +1,6 @@
 import React from 'react';
 import '../components_css/Member.css'
+import "../components_res/Member.css";
 
 export default function Membercard({
   image,

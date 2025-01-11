@@ -48,7 +48,6 @@
         height: 30px;
         background: transparent;
         border: 2px solid #C70039;
-        ;
         border-radius: 50%;
         font-size: 10px;
         color: #C70039;
@@ -126,6 +125,7 @@
     position: relative;
     text-align: center;
 }
+
 .M-main-text {
     font-size: 50px;
     font-weight: bold;

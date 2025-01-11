@@ -5,6 +5,7 @@ import eyes from '../images/eyes.png'
 import chakra04 from '../images/chakra04.png'
 import stavyalogo from '../images/stavyalogo.png'
 import '../components_css/About.css'
+import "../components_res/About.css"
 
 //motion
 import { motion } from 'framer-motion'
