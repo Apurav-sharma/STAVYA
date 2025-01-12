@@ -1,0 +1,40 @@
+.container {
+    /* Space between cards */
+    /* display: grid;
+    grid-template-columns: repeat(3, 1fr); */
+
+    /* display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 80px; */
+    justify-content: space-evenly;
+    gap: 80px;
+
+    /* Default: 3 cards per row */
+    .card {
+        width: 20rem;
+    }
+}
+
+/*  
+@media (max-width: 768px) {
+
+    /* Tablet view */
+    /* .container {
+        grid-template-columns: repeat(2, 1fr);
+        /* 2 cards per row */
+
+        .card {
+            width: 20rem;
+        }
+    /* } */
+/* } */
+/*  */
+/* @media (max-width: 420px) { */
+
+    /* Phone view */
+    /* .container { */
+        /* grid-template-columns: 1fr; */
+        /* 1 card per row */
+    /* } */
+/* } */
