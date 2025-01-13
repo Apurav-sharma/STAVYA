@@ -1,6 +1,7 @@
 import React from 'react';
 import Clubscard from '../components_jsx/Clubscard';
 import stvyalogo from '../images/stavyalogo.png';
+import "../components_res/Club.css";
 import '../components_css/Club.css';
 
 import deepjyoti02 from '../images/deepjyoti02.png'

@@ -1,40 +1,43 @@
+/*
 .container {
-    /* Space between cards */
-    /* display: grid;
-    grid-template-columns: repeat(3, 1fr); */
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
 
-    /* display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 80px; */
-    justify-content: space-evenly;
     gap: 80px;
+    width: auto;
+    justify-content: space-evenly;
 
-    /* Default: 3 cards per row */
     .card {
-        width: 20rem;
+        width: 800rem;
+        .club_logo {
+            margin-right: 10rem;
+            height: 4rem;
+        }
     }
 }
+    */
+.container {
+    gap: 40px;
+    justify-content: center !important;
+    align-items: center !important;
+    overflow: hidden !important;;
+}
 
-/*  
-@media (max-width: 768px) {
+.container .card {
+    width: 20rem !important;
+    /* border: 2px solid red; */
+}
 
-    /* Tablet view */
-    /* .container {
-        grid-template-columns: repeat(2, 1fr);
-        /* 2 cards per row */
+/* .container .card .face {
+    width: 300px;
+} */
 
-        /* .card {
-            width: 20rem;
-        } */
-    /* } */
-/* } */
-/*  */
-/* @media (max-width: 420px) { */
+/* @media (max-width: 768px) {} */
 
-    /* Phone view */
-    /* .container { */
-        /* grid-template-columns: 1fr; */
-        /* 1 card per row */
-    /* } */
-/* } */
+
+@media (max-width: 420px) {
+    .container {
+        justify-content: center !important;
+        align-content: center !important;
+    }
+}
