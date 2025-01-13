@@ -40,4 +40,12 @@
         justify-content: center !important;
         align-content: center !important;
     }
+
+    /* .C-sub-text {
+        width: auto !important;
+        transform: scaleX(1.2) !important;
+        height: 20px !important;
+        left: 2% !important;
+        top: 30% !important;
+    } */
 }
